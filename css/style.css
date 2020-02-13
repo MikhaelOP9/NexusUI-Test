@@ -1,0 +1,134 @@
+
+html {
+  background-color:rgb(50, 50, 50); 
+  font:  "Fira Sans", sans-serif;
+}
+h1 {
+  color : rgb(200, 200, 200); 
+  font: 1.2em "Fira Sans", sans-serif;
+  border : 2px;
+}
+h3 {
+  color : rgb(200, 200, 200); 
+  font: 1em "Fira Sans", sans-serif;
+  border : 2px;
+}
+.grainSwitches {
+  display : flex;
+  vertical-align: middle;
+  font: 0.8em "Fira Sans", sans-serif;
+  margin-bottom: 20px;
+}
+#drop_zone {
+
+  border: 5px solid #b22222;
+width: 752px;
+height: 100px;
+color:  white;
+
+}
+
+#grainLoop #grainRev{
+  margin-top: -15px;
+}
+#latch {
+  position:relative;
+  top:8px;
+  font-size: 12px;
+}
+#keyboard {
+  position:relative;
+  bottom: 50px;
+  left: 99px;
+}
+.octaves{
+  display: flex;
+  bottom: 5px;
+  font-size: 12px;
+}
+.getRow {
+  display: flex;
+  border :2px solid;
+  border-color: white;
+  color : whitesmoke;
+  max-width: 760px;
+}
+.grainUI {
+  border-color: white;
+  color : whitesmoke;
+  margin : 5px;
+}
+.fxSection {
+  border-color: white;
+  color : whitesmoke;
+  margin-top: 24px;
+}
+.filterRow {
+  display : flex;
+  flex :row;
+}
+.filter1 {        
+  display : flex;
+  flex :row;
+  border: 1px solid;
+  margin : 10px;
+  color : rgb(200, 200, 200); 
+  font: 0.8em "Fira Sans", sans-serif;
+}
+.filter2 {        
+display : flex;
+border: 1px solid;
+margin : 10px;
+color : rgb(200, 200, 200); 
+font: 0.8em "Fira Sans", sans-serif;
+}
+.stutter {
+display : flex;
+border-bottom: 1px solid;
+margin : 10px;
+color : rgb(200, 200, 200); 
+font: 0.8em "Fira Sans", sans-serif;
+}
+.chorDel {        display : flex;
+border-bottom: 1px solid;
+margin : 10px;
+color : rgb(200, 200, 200); 
+font: 0.8em "Fira Sans", sans-serif;
+}
+.grainLine1 {
+  display : flex;
+  border-bottom: 1px solid;
+  max-width: 270px;
+  margin : 10px;
+  color : rgb(200, 200, 200); 
+  font: 0.8em "Fira Sans", sans-serif;
+}
+.grainLine2 {
+display : flex;
+border-bottom: 1px solid;
+max-width: 270px;
+margin : 10px;
+color : rgb(200, 200, 200); 
+font: 0.8em "Fira Sans", sans-serif;
+}
+.grainLine3 {
+  display : flex;
+  border-bottom: 1px solid;
+  max-width: 270px;
+  margin : 10px;
+  color : rgb(200, 200, 200); 
+  font: 0.8em "Fira Sans", sans-serif;
+  color : rgb(200, 200, 200); 
+  font: 0.8em "Fira Sans", sans-serif;
+}
+.grainEnv {
+  display : flex;
+  color : rgb(200, 200, 200); 
+  font: 0.8em "Fira Sans", sans-serif;
+  padding-top: 35px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.grainNB {
+  display : flex;
+}

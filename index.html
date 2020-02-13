@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+<title>PéréGrains</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <h1>PéréGrains</h1>
+    <!-- GRAIN UI -->
+    <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+        <p>Drag an audio file to this Drop Zone ...</p>
+      </div>
+    <div class="getRow">
+        <div class="grainUI">
+            <div class="grainSwitches">
+                <span id="grainLoop">Loop</span>
+                <span id="grainRev">Rev</span>
+            </div>
+            <div class="grainLine1">
+                <span id="grainNB"></span>nb
+                <span id="posVar"></span>posV
+                <span id="grainRate"></span>rate
+                <span id="grainDet"></span>det
+            </div>
+            <div class="grainLine2">
+                <span id="period"></span>per
+                <span id="dur"></span>dur
+                <span id="min"></span>min
+                <span id="minVar"></span>minV
+            </div>
+
+            <div class="grainLine3">
+                <span id="resample"></span>respl
+                <span id="resampleVar"></span>resplV
+                <span id="overlap"></span>ovlap
+            </div>
+        </div>
+        <span class="grainEnv getRow">
+            <span id="attack">Att</span>
+            <span id="release">Rel</span>
+        </span>
+        <div class="fxSection">
+            <div class="filterRow">
+                <div class="filter1">
+                    <h3>Filter1</h3>
+                    <span id="freqFilter1"> </span>freq
+                    <span id="resFilter1"></span>res
+                </div>
+                <div class="filter2">
+                    <h3>Filter2</h3>
+                    <span id="freqFilter2"> </span>freq
+                    <span id="resFilter2"></span>res
+                </div>
+            </div>
+            <div class="stutter">
+                <h3>Stutter</h3>
+                <span id="delStutter"></span>del
+                <span id="sizeStutter"> </span>size
+                <span id="sizeVar"></span>sizeV
+                <span id="durationStutter"></span>dur
+                <span id="overlapStutter"> </span>overl
+            </div>
+            <div class="chorDel">
+                <h3>ChorDl</h3>
+                <span id="wide"></span>wide
+                <span id="delayTime"> </span>time
+                <span id="delayTimeVar"> </span>timeV
+                <span id="feedbackTime"></span>fdbk
+                <span id="dryWet"></span>d/w
+            </div>
+        </div>
+    </div>
+    <div class="octaves">
+        <div id="octMoins"></div>
+        <div id="octPlus"></div>
+    </div>
+    <div id="latch"></div>
+    <div id='keyboard'></div>
+
+    <script src="js/NexusUI.js"></script>
+    <script src="js/qwerty-hancock.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/AudioSynth.js"></script>
+
+</body>
+
+</html>
